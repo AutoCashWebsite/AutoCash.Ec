@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoCash.Ec - Compra inmediata de vehículos usados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #1e90ff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .cta {
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #1e90ff;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 5px;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section h3 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .feature {
+            flex: 1 1 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .feature h4 {
+            font-size: 1.5rem;
+            color: #1e90ff;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e90ff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AutoCash.Ec</h1>
+        <p>Rápido, seguro y sin complicaciones</p>
+    </header>
+
+    <div class="hero">
+        <h2>¿Quieres vender tu auto usado hoy mismo?</h2>
+        <p>En <strong>AutoCash.Ec</strong>, valoramos tu tiempo y hacemos que vender tu auto sea rápido y seguro. No pierdas tiempo buscando compradores, nosotros vamos a tu lugar de trabajo o domicilio y cerramos el trato en el acto.</p>
+        <a href="#contact" class="cta">Vende tu auto ahora</a>
+    </div>
+
+    <section>
+        <h3>¿Por qué elegir AutoCash.Ec?</h3>
+        <div class="features">
+            <div class="feature">
+                <h4>Compra inmediata</h4>
+                <p>Recibe una oferta justa por tu vehículo en minutos. Sin demoras, sin papeleo complicado.</p>
+            </div>
+            <div class="feature">
+                <h4>Nosotros vamos a ti</h4>
+                <p>Ya sea en tu casa o en tu oficina, llegamos donde estés para realizar la transacción de manera rápida y cómoda.</p>
+            </div>
+            <div class="feature">
+                <h4>Transacciones seguras</h4>
+                <p>Garantizamos pagos seguros y legales. Tu tranquilidad es nuestra prioridad.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h3>Contáctanos</h3>
+        <p>¿Listo para vender tu vehículo? Llámanos o escríbenos por WhatsApp y agenda tu visita hoy mismo.</p>
+        <p><strong>Teléfono:</strong> +593 999-999-999</p>
+        <p><strong>Email:</strong> contacto@autocash.ec</p>
+        <a href="https://wa.me/593999999999" class="cta">Escríbenos por WhatsApp</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AutoCash.Ec. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
